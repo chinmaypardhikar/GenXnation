@@ -49,12 +49,12 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item" ><Link id='general' className="nav-link" to="/GenXnation"><h6>General</h6></Link></li>
-                <li className="nav-item" ><Link id='business' className="nav-link"  to="/GenXnation/business"><h6>Business</h6></Link></li>
-                <li className="nav-item" ><Link id='entertainment' className="nav-link"  to="/GenXnation/entertainment"><h6>Entertainment</h6></Link></li>
-                <li className="nav-item" ><Link id='health' className="nav-link"  to="/GenXnation/health"><h6>Health</h6></Link></li>
-                <li className="nav-item" ><Link id='science' className="nav-link"  to="/GenXnation/science"><h6 >Science</h6></Link></li>
-                <li className="nav-item" ><Link id='sports' className="nav-link"  to="/GenXnation/sports"><h6 >Sports</h6></Link></li>
-                <li className="nav-item" ><Link id='technology' className="nav-link"  to="/GenXnation/technology"><h6 >Technology</h6></Link></li>
+                <li className="nav-item" ><Link id='business' className="nav-link"  to="/business"><h6>Business</h6></Link></li>
+                <li className="nav-item" ><Link id='entertainment' className="nav-link"  to="/entertainment"><h6>Entertainment</h6></Link></li>
+                <li className="nav-item" ><Link id='health' className="nav-link"  to="/health"><h6>Health</h6></Link></li>
+                <li className="nav-item" ><Link id='science' className="nav-link"  to="/science"><h6 >Science</h6></Link></li>
+                <li className="nav-item" ><Link id='sports' className="nav-link"  to="/sports"><h6 >Sports</h6></Link></li>
+                <li className="nav-item" ><Link id='technology' className="nav-link"  to="/technology"><h6 >Technology</h6></Link></li>
               </ul>
             </div>
           </div>
