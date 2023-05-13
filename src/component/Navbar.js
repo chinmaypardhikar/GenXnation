@@ -48,7 +48,7 @@ export default class Navbar extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item" ><Link id='general' className="nav-link" to="/"><h6>General</h6></Link></li>
+                <li className="nav-item" ><Link id='general' className="nav-link" to="/general"><h6>General</h6></Link></li>
                 <li className="nav-item" ><Link id='business' className="nav-link"  to="/business"><h6>Business</h6></Link></li>
                 <li className="nav-item" ><Link id='entertainment' className="nav-link"  to="/entertainment"><h6>Entertainment</h6></Link></li>
                 <li className="nav-item" ><Link id='health' className="nav-link"  to="/health"><h6>Health</h6></Link></li>
