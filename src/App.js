@@ -61,7 +61,7 @@ export default class App extends Component{
         <Routes >
           <Route path="/business" element={<News key='business' apiKey={this.keys} pageSize={8} country='in' category='business' sendData={this.getData}/>}/>
           <Route path="/entertainment" element={<News key='entertainment' apiKey={this.keys} pageSize={8} country='in' category='entertainment' sendData={this.getData}/>}/>
-          <Route exact path="/GenXnation" element={<News key='general' apiKey={this.keys} pageSize={8} country='in' category='general' sendData={this.getData} />}/>
+          <Route exact path="/" element={<News key='general' apiKey={this.keys} pageSize={8} country='in' category='general' sendData={this.getData} />}/>
           <Route path="/health" element={<News key='health' apiKey={this.keys} pageSize={8} country='in' category='health'  sendData={this.getData}/>}/>
           <Route path="/science" element={<News key='science' apiKey={this.keys} pageSize={8} country='in' category='science'  sendData={this.getData}/>}/>
           <Route path="/sports" element={<News key='sports' apiKey={this.keys} pageSize={8} country='in' category='sports'  sendData={this.getData}/>}/>
