@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/GenXnation/static/css/main.4b664ce0.css",
-    "main.js": "/GenXnation/static/js/main.a450a46f.js",
+    "main.js": "/GenXnation/static/js/main.e164e75e.js",
     "static/js/787.4c026eef.chunk.js": "/GenXnation/static/js/787.4c026eef.chunk.js",
     "static/media/loading.gif": "/GenXnation/static/media/loading.0616acfb37e5ae92809d.gif",
     "index.html": "/GenXnation/index.html",
     "main.4b664ce0.css.map": "/GenXnation/static/css/main.4b664ce0.css.map",
-    "main.a450a46f.js.map": "/GenXnation/static/js/main.a450a46f.js.map",
+    "main.e164e75e.js.map": "/GenXnation/static/js/main.e164e75e.js.map",
     "787.4c026eef.chunk.js.map": "/GenXnation/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b664ce0.css",
-    "static/js/main.a450a46f.js"
+    "static/js/main.e164e75e.js"
   ]
 }
