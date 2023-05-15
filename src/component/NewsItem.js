@@ -11,7 +11,7 @@ export default class NewsItem extends Component {
           <div className="card-body">
             <h5 className="card-title">{title} ..</h5>
             <p className="card-text">{discription} ..</p>
-            {{author}!=null?<p className="card-text"><small className="text-muted">By {author?author:'Unknown'} on {new Date(date).getDate()+"-"+new Date(date).getMonth()+"-"+new Date(date).getFullYear()}</small></p>:''}
+            {{author}!=null?<p className="card-text"><small className="text-muted">By {author?author:'Unknown'} on {new Date(date).getDate()+" / "+(new Date(date).getMonth()+1)+" / "+new Date(date).getFullYear()}</small></p>:''}
             <a href={newsUrl} className="btn btn-sm btn-dark position-absolute" target="_blank"  style={{top:'90%'}}>
               Read more
             </a>
