@@ -4,7 +4,6 @@ import Navbar from './component/Navbar';
 import News from './component/News';
 import PropsType from 'prop-types';
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
   BrowserRouter
